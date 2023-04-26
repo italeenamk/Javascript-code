@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script>
+     function myFunction() {
+       document.getElementById("functionpara").innerHTML = "Paragraph changed.";
+     }
+    </script>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,6 +20,14 @@
 <body>
 
 	<h1>JavaScript</h1>
+
+    <h2>My First JavaScript</h2>
+
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+
+    <p id="demo"></p>
 
 	<p id="demo">JavaScript can change HTML content.</p>
 
@@ -41,6 +54,12 @@
     <p id="block" style="display:none">Hello JavaScript!</p>
 
     <button type="button" onclick="document.getElementById('block').style.display='block'">Click Me!</button>
+
+    <h2>Demo JavaScript in Head</h2>
+
+    <p id="functionpara">A Paragraph.</p>
+
+    <button type="button" onclick="myFunction()">Try it</button>
 
 </body>
 <script type="text/javascript">

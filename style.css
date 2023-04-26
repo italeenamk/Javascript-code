@@ -9,3 +9,12 @@ span img {
 	width: 71px;
     margin: 0 45px;
 }
+button {
+	border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 7px;
+    color: white;
+    border-radius: 4px;
+    background: linear-gradient(45deg, #ca0155, red);
+}
