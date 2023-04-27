@@ -33,14 +33,12 @@
                <button type="button"
                onclick="document.getElementById('demo').innerHTML = Date()">
                Click me to display Date and Time.</button>
-
+               <h2 id="">JavaScript can change HTML content.</h2>
                <p id="demo"></p>
-
-               <p id="demo">JavaScript can change HTML content.</p>
 
                <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>    Click Me!</button>
 
-               <p>JavaScript can change HTML attribute values.</p>
+               <h2>JavaScript can change HTML attribute values.</h2>
 
                <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
 
@@ -51,15 +49,16 @@
 
                <span onclick="document.getElementById('myImage').src='right-img.jpg'">
                 <img src="https://www.pngmart.com/files/15/Orange-Beach-Ball-Transparent-PNG.png"></span>
+                <h2>change the style of an HTML element</h2>
 
                <p id="click">JavaScript can change the style of an HTML element.</p>
 
                <button type="button" onclick="document.getElementById('click').style.fontSize='35px'">Click Me!</button>
-
+               <h2>hide HTML elements</h2>
                <p id="remove">JavaScript can hide HTML elements.</p>
 
                <button type="button" onclick="document.getElementById('remove').style.display='none'">Click Me!</button>
-
+               <h2>display HTML elements</h2>
                <p id="block" style="display:none">Hello JavaScript!</p>
 
                <button type="button" onclick="document.getElementById('block').style.display='block'">Click Me!</button>
@@ -84,12 +83,28 @@
                <script>
                document.write(5 + 10);
                </script>
+               <h2>other example</h2>
+               <button type="button" onclick="document.write('<h1>hello</h1>')">Try it</button>
+               <h2>Using window.alert()</h2>
+               <script>
+               window.alert('welcome');
+               </script>
+               <button type="button" onclick="alert('aleena')">alert</button>
+               <h2>Using console.log()</h2>
+               <script>
+               console.log('heloooo');
+               </script>
+               <button type="button" onclick="console.log('11')">console</button>
             </div>
             <div class="col-md-4 col-sm-12">
                 <h1>task</h1>
                 <h2>My First task</h2>
                 <p id="myname"></p>
                 <button type="button" onclick="document.getElementById('myname').innerHTML = 'Aleena masood';">Myname</button>
+                <h2>document.write()-task</h2>
+                <script>
+                    document.write('aleena-mk');
+                </script>
             </div>
         </div>
     </div>
