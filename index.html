@@ -79,6 +79,8 @@
                <script>
                document.getElementById("plus").innerHTML = 5 + 6;
                </script>
+               <p id="htmlinner"></p>
+               <button type="button" onclick="document.getElementById('htmlinner').innerHTML = ('hello')">click</button>
                <h2>Using document.write()</h2>
                <script>
                document.write(5 + 10);
@@ -95,6 +97,10 @@
                console.log('heloooo');
                </script>
                <button type="button" onclick="console.log('11')">console</button>
+               <h2>JavaScript Print</h2>
+               <p>Click the button to print the current page.</p>
+
+               <button onclick="window.print()">Print this page</button>
             </div>
             <div class="col-md-4 col-sm-12">
                 <h1>task</h1>
