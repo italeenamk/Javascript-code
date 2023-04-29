@@ -88,9 +88,9 @@
                <h2>other example</h2>
                <button type="button" onclick="document.write('<h1>hello</h1>')">Try it</button>
                <h2>Using window.alert()</h2>
-               <script>
+               <!-- <script>
                window.alert('welcome');
-               </script>
+               </script> -->
                <button type="button" onclick="alert('aleena')">alert</button>
                <h2>Using console.log()</h2>
                <script>
@@ -106,12 +106,22 @@
 
                <script>
                let x, y, z;  // Statement 1
-               x = 5;        // Statement 2
+               x = 15;        // Statement 2
                y = 6;        // Statement 3
-               z = x + y;    // Statement 4
+               z = x - y;    // Statement 4
 
                document.getElementById("state").innerHTML =
                "The value of z is " + z + ".";  
+               </script>
+               <button type="button" onclick="mysatament()">Click Me!</button>
+               <p id="demo1"></p>
+               <p id="demo2"></p>
+
+               <script>
+               function mysatament() {
+                 document.getElementById("demo1").innerHTML = "Hello aleena!";
+                 document.getElementById("demo2").innerHTML = "How are you?";
+               }
                </script>
             </div>
             <div class="col-md-4 col-sm-12">
